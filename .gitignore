@@ -1,0 +1,15 @@
+# Ignore data files
+*.csv
+*.parquet
+data/
+
+# Ignore Python cache & environments
+__pycache__/
+*.pyc
+venv/
+.env/
+.ipynb_checkpoints/
+
+# Ignore saved model files
+*.pkl
+*.joblib
